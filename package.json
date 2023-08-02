@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://rathodmanju7344.github.io/manju-portfolio",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -19,6 +20,9 @@
     "sass": "^1.64.1",
     "tsparticles": "^2.11.1",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0-placeholder-for-preset-env.2"
   },
   "scripts": {
     "start": "react-scripts start",
