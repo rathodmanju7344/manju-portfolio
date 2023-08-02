@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/manju-portfolio/static/css/main.0f7104cf.css",
+    "main.js": "/manju-portfolio/static/js/main.64cc5eea.js",
+    "index.html": "/manju-portfolio/index.html",
+    "main.0f7104cf.css.map": "/manju-portfolio/static/css/main.0f7104cf.css.map",
+    "main.64cc5eea.js.map": "/manju-portfolio/static/js/main.64cc5eea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f7104cf.css",
+    "static/js/main.64cc5eea.js"
+  ]
+}
