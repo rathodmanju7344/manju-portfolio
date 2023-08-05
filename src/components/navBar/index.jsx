@@ -6,7 +6,7 @@ import './styles.scss';
 
 const data = [
     {
-        label: 'Home',
+        label: 'HOME',
         to: '/'
     },
     {
@@ -40,9 +40,9 @@ const Navbar = () => {
     }
     return (
         <div>
-            <nav className="navbar">
+            <nav className={`navbar ${toggleIcon ? 'navbar-issue' : ''} `}>
                 <div className="navbar__container">
-                    <Link to={"/"} className="navbar__container__logo">
+                    <Link to={"/"} className={`navbar__container__logo ${toggleIcon ? 'navbar__container__logo__issue' : ''}`}>
                         <FaReact size={30} />
                     </Link>
                 </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
                     {
                         data.map((item, key) => (
                             <li className="navbar__container__menu__item">
-                                <Link className="navbar__container__menu__item__links" to={item.to}>
+                                <Link className="navbar__container__menu__item__links" to={item.to} onClick={handleToggleIcon}>
                                     {item.label}
                                 </Link>
                             </li>
@@ -60,7 +60,7 @@ const Navbar = () => {
                         ))
                     }
                 </ul>
-                <div className="nav-icon" onClick={handleToggleIcon}>
+                <div className={toggleIcon ? "nav-icon-issue":"nav-icon"} onClick={handleToggleIcon}>
                     {
                         toggleIcon ? <HiX size={30}/> : <FaBars size={30}/>
                     }

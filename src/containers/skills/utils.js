@@ -17,12 +17,8 @@ export const skillsData = [
       {
         skillName: "CSS",
         percentage: "70"
-      },
-      {
-        skillName: "Git",
-        percentage: "50"
-        },
-    ],
+      }
+    ]
   },
   {
     label: "BACK END",
@@ -31,15 +27,23 @@ export const skillsData = [
             skillName: "Core Java(OOPS)",
             percentage: "50"
         },
+        {
+          skillName: "MySql",
+          percentage: "55"
+        },
+        {
+          skillName: "Git",
+          percentage: "50"
+        }
     ]
   },
-  {
-    label: "DATABASES",
-    data: [
-        {
-            skillName: "MySql",
-            percentage: "55"
-        },
-    ]
-  }
+  // {
+  //   label: "DATABASES",
+  //   data: [
+  //       {
+  //           skillName: "MySql",
+  //           percentage: "55"
+  //       },
+  //   ]
+  // }
 ];

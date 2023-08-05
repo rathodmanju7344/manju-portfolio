@@ -55,17 +55,12 @@ const About = () => {
           >
 
             <h3>Front End Developer</h3>
-            <p>I graduated with my degree in Bachelor of Engineering. I always been
-              interested in learning new technology
-              and it leads to great career options too.
-
-              A Front-End Developer is someone who creates websites and web applications.
-
-              The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works.
-
-              You can think of Front-End as client-side and Back-End as server-side.
-
-              The basic languages for Front-End Development are HTML, CSS, and JavaScript.
+            <p>
+              Aspiring Front End Developer with knowledge of JavaScript, React.Js, HTML and CSS.
+              Eager to contribute to the development of visually appealing and user-friendly web applications.
+              A fast learner, committed to enhancing skills and creating engaging
+              web experiences through continuous growth and collaboration.
+              Committed to continuous learning and staying updated with the latest front-end technologies.
             </p>
           </Animate>
 

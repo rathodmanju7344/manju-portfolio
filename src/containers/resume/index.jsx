@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
-import { BsInfoCircleFill } from "react-icons/bs";
+import { BsCloudDownloadFill } from "react-icons/bs";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -9,13 +9,15 @@ import 'react-vertical-timeline-component/style.min.css'
 import { data } from "./utils";
 import './styles.scss';
 import {MdWork} from 'react-icons/md';
+import Pdf from '../../data/Manju_Rathod_ReactJs_Developer.pdf';
 
 const Resume = () => {
   return (
     <section id="resume" className="resume">
       <PageHeaderContent
         headerText="My Resume"
-        icon={<BsInfoCircleFill size={40} />}
+        extraIcon={<a className="download-icon-css" href = {Pdf} download="Manju_Rathod_ReactJs_Developer" target = "_blank"><BsCloudDownloadFill size={40} /></a>}
+        // icon={<></>}
       />
       <div className="timeline">
         <div className="timeline__education">

@@ -9,7 +9,7 @@ const Home = () => {
     const navigate = useNavigate();
 
     const handleNavigateToContactMePage = () => {
-        navigate('/contact');
+        navigate('/about');
     }
     return (
         <section id="home" className="home">
@@ -21,18 +21,18 @@ const Home = () => {
                 </h1>
             </div>
             <Animate
-            play
-            duration={1.5}
-            delay={1}
-            start={{
-                transform: "translateY(550px)"
-            }}
-            end={{
-                transform: "translateX(0px)"
-            }}
+                play
+                duration={1.5}
+                delay={1}
+                start={{
+                    transform: "translateY(550px)"
+                }}
+                end={{
+                    transform: "translateX(0px)"
+                }}
             >
                 <div className="home__contact-me">
-                    <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+                    <button onClick={handleNavigateToContactMePage}>About Me</button>
                 </div>
             </Animate>
 

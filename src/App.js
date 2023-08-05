@@ -19,7 +19,7 @@ function App() {
     await loadFull(main);
   };
 
-  const renderParticleJsInHomepage = location.pathname === "/";
+  const renderParticleJsInHomepage = location.pathname === "/" || location.pathname === "/manju-portfolio";
   return (
     <div className="App">
       {/* particles js  */}
@@ -32,7 +32,8 @@ function App() {
       {/* main page content */}
       <div className="App__main-page-content">
       <Routes>
-        <Route index path="/" element={<Home />} />
+        <Route path="/manju-portfolio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/skills" element={<Skills />} />

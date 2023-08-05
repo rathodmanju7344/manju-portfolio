@@ -27,9 +27,9 @@ const Skills = () => {
                 transform: "translateX(0px)",
               }}
             >
-              <h3 className="skills__content-wrapper__inner-content__category-text">
+              {/* <h3 className="skills__content-wrapper__inner-content__category-text">
                 {item.label}
-              </h3>
+              </h3> */}
               <div className="skills__content-wrapper__inner-content__progressbar-container">
                 {item.data.map((skillItem, j) => (
                   <AnimateKeyframes
