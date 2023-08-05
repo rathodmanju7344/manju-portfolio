@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/manju-portfolio/static/css/main.0f7104cf.css",
-    "main.js": "/manju-portfolio/static/js/main.64cc5eea.js",
+    "main.css": "/manju-portfolio/static/css/main.e64725b2.css",
+    "main.js": "/manju-portfolio/static/js/main.257174bc.js",
+    "static/media/Manju_Rathod_ReactJs_Developer.pdf": "/manju-portfolio/static/media/Manju_Rathod_ReactJs_Developer.bbbc1d6d799948141d74.pdf",
     "index.html": "/manju-portfolio/index.html",
-    "main.0f7104cf.css.map": "/manju-portfolio/static/css/main.0f7104cf.css.map",
-    "main.64cc5eea.js.map": "/manju-portfolio/static/js/main.64cc5eea.js.map"
+    "main.e64725b2.css.map": "/manju-portfolio/static/css/main.e64725b2.css.map",
+    "main.257174bc.js.map": "/manju-portfolio/static/js/main.257174bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f7104cf.css",
-    "static/js/main.64cc5eea.js"
+    "static/css/main.e64725b2.css",
+    "static/js/main.257174bc.js"
   ]
 }
