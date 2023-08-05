@@ -19,7 +19,7 @@ function App() {
     await loadFull(main);
   };
 
-  const renderParticleJsInHomepage = location.pathname === "/" || location.pathname === "/manju-portfolio";
+  const renderParticleJsInHomepage = ["/", "/manju-portfolio", "/manju-portfolio/"].includes(location.pathname);
   return (
     <div className="App">
       {/* particles js  */}
